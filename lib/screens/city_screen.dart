@@ -23,6 +23,7 @@ class _CityScreenState extends State<CityScreen> {
           child: Column(
             children: <Widget>[
               Align(
+                //this was to resolve the conflicts
                 alignment: Alignment.topLeft,
                 child: FlatButton(
                   onPressed: () {
